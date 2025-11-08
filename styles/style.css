@@ -176,9 +176,23 @@ button {
 
 /* Article */
 
+.thumbnail {
+  display: flex;
+  border: 1px solid black;
+  padding: 20px;
+  margin-top: 15px;
+}
+
+.article_section {
+  display: flex;
+}
+
 .article {
   margin-bottom: 1rem;
-  display: flex;
+  border: 1px solid black;
+  padding: 20px;
+  width: 50%;
+  margin-right: 10px;
 }
 
 .article__title {
@@ -226,6 +240,8 @@ button {
 
 .facebook-link {
   color: var(--orange-dark);
+  text-align: end;
+  margin-top: 10px;
 }
 
 /* Sidebar */
