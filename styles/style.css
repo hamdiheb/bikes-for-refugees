@@ -92,11 +92,18 @@ p {
   border-left-color: var(--orange-dark);
 }
 
+button {
+  padding: 10px;
+  border-radius: 2px;
+  border: none;
+  background-color: #c05326;
+  color: white;
+}
 
-/* Buttons */
-
-  /* INSERT BUTTON STYLES HERE */
-
+.button_special {
+  background-color: white;
+  color: #c05326;
+}
 
 /* Content */
 
